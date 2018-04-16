@@ -64,5 +64,7 @@ namespace IISDove
         public int TotalOfSending { get; set; }
 
         public List<IISStatusDto> IISStatus { get; set; } = new List<IISStatusDto>();
+
+        public string LastExecuteCommand { get; set; }
     }
 }

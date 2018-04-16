@@ -107,10 +107,11 @@ namespace IISDove
                 {
                     foreach (var iis in sender.IISStatus)
                     {
-                        if (iis.StatusCode == (int)StatusCode.SiteOccurError && DateTime.Now > sender.LastSendTime.ToDateTime().AddSeconds(30))
+                        if (iis.StatusCode == (int)StatusCode.SiteOccurError)
                         {
                             UIISManageClient.Restart(sender.Ip, iis.SiteName);
                             this.ExceuteIISRestarted(this, new ExceuteIISRestartCommandEventArgs(sender, iis.SiteName));
+                            sender.LastExecuteCommand = DateTime.Now.ToString("yyyy-MM-dd");
                         }
                     }
                 }
