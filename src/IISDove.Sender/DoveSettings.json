@@ -1,0 +1,20 @@
+﻿{
+  "Type": 1,
+  "Code": "",
+  "Name": "",
+  "Ip": "",
+  "Remark": "",
+  "CommanderHost": "",
+  "SendInterval": 5000,
+  "LastCheckElapsedTime": 0,
+  "LastSendTime": "",
+  "IISList": [
+    {
+      "SiteName": "",
+      "Localhost": "",
+      "AliveUrl": "",
+      "StatusCode": 0
+    }
+  ]
+
+}

@@ -1,0 +1,11 @@
+D:\!Github\IISDove\src\IISDove\bin\Debug\IISDove.dll
+D:\!Github\IISDove\src\IISDove\bin\Debug\IISDove.pdb
+D:\!Github\IISDove\src\IISDove\obj\Debug\IISDove.csproj.CoreCompileInputs.cache
+D:\!Github\IISDove\src\IISDove\obj\Debug\IISDove.dll
+D:\!Github\IISDove\src\IISDove\obj\Debug\IISDove.pdb
+D:\!Github\IISDove\src\IISDove\bin\Debug\Newtonsoft.Json.dll
+D:\!Github\IISDove\src\IISDove\bin\Debug\Newtonsoft.Json.xml
+D:\!Github\IISDove\src\IISDove\bin\Debug\U.Extension.Core.dll
+D:\!Github\IISDove\src\IISDove\bin\Debug\U.Utilities.dll
+D:\!Github\IISDove\src\IISDove\bin\Debug\Microsoft.Web.Administration.dll
+D:\!Github\IISDove\src\IISDove\obj\Debug\IISDove.csprojResolveAssemblyReference.cache

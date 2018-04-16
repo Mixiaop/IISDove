@@ -1,0 +1,17 @@
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\IISDove.Sender.exe.config
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\IISDove.Sender.exe
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\IISDove.Sender.pdb
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.csprojResolveAssemblyReference.cache
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.csproj.CoreCompileInputs.cache
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.exe
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.pdb
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\IISDove.dll
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\Newtonsoft.Json.dll
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\U.Utilities.dll
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\U.Extension.Core.dll
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\Microsoft.Web.Administration.dll
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\IISDove.pdb
+D:\!Github\IISDove\src\IISDove.Sender\bin\Debug\Newtonsoft.Json.xml
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.csproj.IISDove.Sender.exe.config
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.ProjectInstaller.resources
+D:\!Github\IISDove\src\IISDove.Sender\obj\Debug\IISDove.Sender.csproj.GenerateResource.Cache

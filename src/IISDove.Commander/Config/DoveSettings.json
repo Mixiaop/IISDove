@@ -1,0 +1,13 @@
+{
+  "Type": 2,
+  "SendInterval": 5000,
+  "LastCheckElapsedTime": 0,
+  "LastSendTime": "2018-04-10 17:48:53",
+  "Code": 111,
+  "Name": "Client-2",
+  "Ip": "10.10.121.87",
+  "Remark": "",
+  "CommanderHost": "http://10.10.127.198:8040/",
+  "IISList": [],
+  "IsAutoExecuteCommand": false
+}
