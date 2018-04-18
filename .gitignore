@@ -1,9 +1,9 @@
-/_temp/
+_temp/*
 *.ide
 *.ide-journal
 *.log
 *.suo
-/.vs/
-/obj/
-/bin/
-/App_Data/
+.vs/*
+obj/*
+bin/*
+App_Data/*

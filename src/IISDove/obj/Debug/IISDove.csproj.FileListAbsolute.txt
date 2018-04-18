@@ -8,4 +8,3 @@ D:\!Github\IISDove\src\IISDove\bin\Debug\Newtonsoft.Json.xml
 D:\!Github\IISDove\src\IISDove\bin\Debug\U.Extension.Core.dll
 D:\!Github\IISDove\src\IISDove\bin\Debug\U.Utilities.dll
 D:\!Github\IISDove\src\IISDove\bin\Debug\Microsoft.Web.Administration.dll
-D:\!Github\IISDove\src\IISDove\obj\Debug\IISDove.csprojResolveAssemblyReference.cache
