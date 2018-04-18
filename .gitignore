@@ -1,1 +1,9 @@
 src/.vs/*
+*.suo
+*.ide
+src/IISDove/bin/*
+src/IISDove/obj/*
+src/IISDove.Commander/bin/*
+src/IISDove.Commander/obj/*
+src/IISDove.Sender/bin/*
+src/IISDove.Sender/obj/*
