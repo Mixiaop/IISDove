@@ -1,9 +1,1 @@
-_temp/*
-*.ide
-*.ide-journal
-*.log
-*.suo
-.vs/*
-obj/*
-bin/*
-App_Data/*
+src/.vs/*
