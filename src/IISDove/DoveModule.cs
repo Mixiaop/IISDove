@@ -111,7 +111,8 @@ namespace IISDove
                         {
                             UIISManageClient.Restart(sender.Ip, iis.SiteName);
                             this.ExceuteIISRestarted(this, new ExceuteIISRestartCommandEventArgs(sender, iis.SiteName));
-                            sender.LastExecuteCommand = DateTime.Now.ToString("yyyy-MM-dd");
+                            iis.LastRestartTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                            sender.LastExecuteCommand = iis.LastRestartTime;
                         }
                     }
                 }
@@ -148,6 +149,7 @@ namespace IISDove
                     source.Name = doveSender.Name;
                     source.Ip = doveSender.Ip;
                     source.TotalOfSending = doveSender.TotalOfSending;
+                    source.LastExecuteCommand = doveSender.LastExecuteCommand;
                     source.IISStatus = doveSender.IISStatus;
                     source.TotalOfSending++;
                 }

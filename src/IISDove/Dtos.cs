@@ -11,6 +11,11 @@ namespace IISDove
         public string AliveUrl { get; set; } = "";
 
         public int StatusCode { get; set; } = 1;
+
+        /// <summary>
+        /// 最近被执行重启的时间
+        /// </summary>
+        public string LastRestartTime { get; set; } = "";
     }
 
     [Serializable]

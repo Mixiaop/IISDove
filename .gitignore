@@ -7,3 +7,5 @@ src/IISDove.Commander/bin/*
 src/IISDove.Commander/obj/*
 src/IISDove.Sender/bin/*
 src/IISDove.Sender/obj/*
+src/.vs/IISDove/v15/.suo
+src/.vs/IISDove/v15/sqlite3/storage.ide
