@@ -109,10 +109,23 @@ namespace IISDove
                     {
                         if (iis.StatusCode == (int)StatusCode.SiteOccurError)
                         {
-                            UIISManageClient.Restart(sender.Ip, iis.SiteName);
-                            this.ExceuteIISRestarted(this, new ExceuteIISRestartCommandEventArgs(sender, iis.SiteName));
-                            iis.LastRestartTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                            sender.LastExecuteCommand = iis.LastRestartTime;
+                            bool need = true;
+                            if (iis.LastRestartTime.IsNotNullOrEmpty())
+                            {
+                                TimeSpan span = msg.SendTime.ToDateTime().Subtract(iis.LastRestartTime.ToDateTime());
+                                if (span.TotalSeconds <= 30)
+                                {
+                                    need = false;
+                                }
+                            }
+
+                            if (need)
+                            {
+                                UIISManageClient.Restart(sender.Ip, iis.SiteName);
+                                this.ExceuteIISRestarted(this, new ExceuteIISRestartCommandEventArgs(sender, iis.SiteName));
+                                iis.LastRestartTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                                sender.LastExecuteCommand = iis.LastRestartTime;
+                            }
                         }
                     }
                 }
